@@ -124,20 +124,13 @@ a {
 /* 48em = 768px */
 
 @media (min-width: 48em) {
-    .header .logo {
-        display: block;
-        margin: 0 auto;
-        text-align: center;
-    }    
     .header li {
-        display: inline-block;
-        float: none;
+        float: left;
     }
     .header li a {
-        display: inline-block;
+        padding: 20px 30px;
     }
     .header .menu {
-        text-align: center;
         clear: none;
         float: right;
         max-height: none;
