@@ -124,6 +124,11 @@ a {
 /* 48em = 768px */
 
 @media (min-width: 48em) {
+    .header .logo {
+        float: center;
+    }
+
+    text-align: center;
     .header li {
         float: left;
     }
